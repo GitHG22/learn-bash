@@ -1,0 +1,7 @@
+#!/bin/bash
+
+greeting='Welcome'
+
+clear
+
+echo "$greeting $USER, the current PID of the script is $$"

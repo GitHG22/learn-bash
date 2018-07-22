@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo 'Input a number from 0-9 and we will do something with it'
+
+read car1 car2 car3
+
+read -t 5 -p 'READ:' num
+echo $num
+echo "Car1 is $car1"
+echo "Car2 is $car2"
+echo "Car3 is $car3"

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# cp $0 "$(date +%Y-%m-%d)_$1"
+
+
+cp $0 ./"$1_$(date +%Y-%m-%d)"
